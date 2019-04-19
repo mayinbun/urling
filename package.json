@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Utility function to wait for a given url to be available.",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/mayinbun/urling"
+  },
   "keywords": [
     "utility",
     "ping",
