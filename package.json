@@ -10,6 +10,5 @@
     "url"
   ],
   "author": "Bunyamin Yildirim",
-  "license": "ISC",
-  "dependencies": {}
+  "license": "MIT"
 }
