@@ -1,4 +1,4 @@
-#Urling
+# Urling
 Zero dependency utility library to check if a url is available.
 
 Use case example: wait for a local server to start on http://localhost:8080 before doing some stuff in CI/CD.
@@ -9,7 +9,7 @@ Rather then scheduling a long wait/sleep, checking on availability might speed u
 npm install urling
 ```
 
-###Usage (with default options)
+### Usage (with default options)
 ```js
 const urling = require('urling');
 
@@ -22,7 +22,7 @@ urling('https://google.com')
 })
 ```
 
-###With custom options
+### With custom options
 
 - required [string] url: the url to check for availability
 - optional [number] retry: amount of retries (default is 3)
