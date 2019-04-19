@@ -1,8 +1,8 @@
 {
   "name": "urling",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility function to wait for a given url to be available.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "url": "https://github.com/mayinbun/urling"
   },
@@ -13,5 +13,14 @@
     "url"
   ],
   "author": "Bunyamin Yildirim",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0"
+  }
 }
