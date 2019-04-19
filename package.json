@@ -1,0 +1,15 @@
+{
+  "name": "urling",
+  "version": "1.0.0",
+  "description": "Utility function to wait for a given url to be available.",
+  "main": "index.js",
+  "keywords": [
+    "utility",
+    "ping",
+    "interval",
+    "url"
+  ],
+  "author": "Bunyamin Yildirim",
+  "license": "ISC",
+  "dependencies": {}
+}
