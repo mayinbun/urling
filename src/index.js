@@ -1,5 +1,5 @@
-const http = require('http');
-const https = require('https');
+import http from 'http';
+import https from 'https';
 
 const defaultOptions = {
 	retry: 3,
@@ -7,7 +7,7 @@ const defaultOptions = {
 	immediate: false
 };
 
-async function waitForUrl(options = { url: '' }) {
+export default async function (options = { url: '' }) {
 	const _options = defaultOptions;
 	let retryCount = 0;
 	let available = false;
@@ -58,5 +58,3 @@ async function ping(url) {
 		})
 	})
 }
-
-module.exports = waitForUrl;
