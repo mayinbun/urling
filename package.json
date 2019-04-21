@@ -1,6 +1,6 @@
 {
   "name": "urling",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Utility function to wait for a given url to be available.",
   "main": "lib/index.js",
   "repository": {
