@@ -3,7 +3,7 @@ Zero dependency utility library to check if a url is available.
 
 Use case example: wait for a local server to start on http://localhost:8080 before doing some stuff in CI/CD.
 Rather then scheduling a long wait/sleep, checking on availability might speed up things.
-###Installation
+### Installation
 
 ```
 npm install urling
